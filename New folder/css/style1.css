@@ -1,0 +1,518 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:"times new romans"
+    /*font-family: 'Handlee', cursive;*/
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+header{
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+    padding: 2px 0 2px 0;
+    font-family: "times new romans";
+    font-weight: bold;
+    font-size: 3vw;
+    letter-spacing: 3px;
+
+}
+header h1{
+   margin :0;
+   letter-spacing: 2vw;
+
+}
+header img{
+    width:5vw;
+    height:6vw;
+
+}
+#trainingimage {
+             background-image: url(../images/training1.jpg);
+             background-size:cover;
+             background-position:top;
+             height:300px;
+             background-repeat: no-repeat;
+}
+#tagline{
+    display: block;
+    font-size:0.4em;
+}
+#sliderbox{
+    background-color:#fff;
+    padding:10px;
+    overflow:hidden;
+}
+#whiteBG{
+    background-color:#fff;
+    padding:0 10px;
+}
+#dietBody h2{
+    text-align:center;
+    color:#fff;
+    background-color:#000;
+    padding:5px 20px 5px 20px;
+    margin:0 30% 10px 30%;
+    border-radius:15px;
+}
+#dietImage{
+    background-image: url("../images/fruit-diet.jpg");
+    background-size: cover;
+    background-position:center;
+    height:300px;
+    margin-top:10px;
+}
+#button_center{
+    text-align:center;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#fatLoss{
+        background:url(../images/training.jpg) no-repeat;
+        background-size:cover;
+    
+}
+#Gain{
+        background:url(../images/trainingarms.jpg) no-repeat;
+        background-size:cover;
+
+}
+#vegProtein{
+        background:url(../images/training2.jpg) no-repeat;
+        background-size:cover;
+
+}
+#bodyimage{
+    background-image: url("../images/fullbody2.jpg");
+    background-size:cover;
+    background-position:center;
+    height:300px;
+}
+
+#absimage{
+    background-image: url("../images/absworkout.jpg");
+    background-size: cover;
+    background-position:center;
+    height:300px;
+}
+
+#armsimage{
+    background-image: url("../images/armsworkout.jpg");
+    background-size: cover;
+    background-position:center;
+    height:300px;
+}
+#legsimage{
+    background-image: url("../images/training.jpg");
+    background-size: cover;
+    background-position:center;
+    height:300px;
+}
+#wvideo{
+    color:red;
+    font-size:12pt;
+    display:none;
+}
+/*
+h1{
+    text-align: center;
+    color: #fff;
+    background-color: #244D69;
+    padding: 18px 0 18px 0;
+    margin: 0 0 2px 0;
+    font-family: "times new romans";
+    font-weight: bold;
+    font-size: 35pt;
+}
+h2{
+    padding: 18px 0 18px 0;
+    margin: 0 0 2px 20px;
+    text-decoration: underline;
+}*/
+
+nav{
+    text-align: center;
+    background-color: #000;
+    padding:1pt 0;
+}
+nav li{
+    display:inline;
+}
+
+nav a{
+    margin-right: 15pt;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+nav li a:hover{
+    background-color: #FF0000;
+}
+
+/*quotes animation and everything on homepage*/
+#quotes{
+    /*border:1px solid #000;*/
+    text-align:center;
+    margin-top:80px;
+    padding:2px;
+    /*height:200px;*/
+    padding-bottom:50px;
+}
+#quotes span{
+    color:#fff;
+    background-color:#000;
+    padding:5px 20px 5px 20px;
+    border-radius:15px;
+}
+
+
+.item-1, 
+.item-2, 
+.item-3 {
+	
+  
+  font-size: 2.5vw;
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 15%; opacity: 1; }
+  33.33%, 100% { left: 20%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 15%; opacity: 1; }
+  66.66%, 100% { left: 20%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 15%; opacity: 1; }
+  100% { left: 20%; opacity: 0; }
+}
+
+
+/*till here*/
+nav ul {
+  list-style-type: none;
+}
+
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+}
+
+nav li a{
+    text-decoration: none;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+th { background: #333; 
+    color: white; 
+    font-weight: bold;
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+footer{
+    background-color:#000; 
+     font-size: 8pt;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+.videoicon{
+    text-decoration:none;
+}
+
+.videoicon img{
+    
+    width:15px;
+    border-radius:50%;
+    padding:0;
+    margin:0 0 0 20px;
+    height:auto;
+}
+.videoicon:hover #wvideo{
+    display:inline;
+}
+
+.workbody h2{
+    padding:5px;
+    width:60%;
+    color:#fff;
+    background-color:#000;
+    padding:5px 20px 5px 20px;
+    border-radius:15px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+.workbody li{
+    font-weight:normal;
+}
+.dietButton{
+    display:inline;
+    width:400px;
+    
+    cursor:pointer;
+    height: 300px;
+    border: 1px solid black;
+    font-size:35px;
+    color:#fff;
+    font-weight:bold;
+    text-shadow:0 0 20px black;
+    border-radius:10px;
+    margin:15px 10px;
+}
+.dietButton:hover{
+    text-shadow:0 0 40px blue;
+    border-radius:50px;
+    font-size:38px;
+    
+}
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    flex-direction:row;
+    margin-top:5px;
+    margin-bottom:0;
+
+}
+.container1{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    flex-direction:row;
+  
+
+}
+
+.selectedNav a { 
+    background-color: #FF0000; 
+    box-shadow:0 0 15px white;
+}
+
+.ecenter{
+    text-align:center;
+}
+
+.ecenter h1{
+    color:#fff;
+    background-color:#000;
+    padding:5px 20px 5px 20px;
+    border-radius:15px;
+}
+.ecenter h2{
+    padding:5px;
+    width:60%;
+    color:#fff;
+    background-color:#000;
+    padding:5px 20px 5px 20px;
+    border-radius:15px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.ecenter a{
+    color:#000;
+    text-decoration:none;
+    padding:5px;
+    margin-right:20px;
+}
+.ecenter #social img{
+    width:5vw;
+    border-radius:50%;
+}
+#social img:hover{
+    box-shadow:0 0 40px blue;
+}
+
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.startButton{
+    display:inline;
+    margin-bottom:10px;
+    width:165pt;
+    background-color:black;
+    cursor:pointer;
+    height: 70px;
+    border: 1px solid black;
+    font-size:12pt;
+    color:#fff;
+    font-weight:bold;
+    text-shadow:0 0 40px red;
+    border-radius:50px;
+    margin:10px 10px;
+}
+.startButton:hover{
+    
+    border-radius:50px;
+    box-shadow: 0 0 10px red;
+    font-size:15pt;
+    width:170pt;
+}
+
+
+.feedform {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+
+
+
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px 0;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	/*background:#0CF;*/
+    background:#000;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+
+
+
+@media only all and (max-width: 1024px) {
+    body{
+        font-size:10pt;
+    }
+    #sliderbox{
+        padding:10pt 0;
+    }
+}
+@media only all and (max-width: 768px) {
+    header{
+        padding-bottom:4px;
+    }
+    footer{
+        font-size:6pt;
+    }
+    #homeimage{
+        background:url(../images/running.jpg) no-repeat;
+        background-size:cover;
+        height:300pt;
+        background-position:right;
+    }
+    #slider{
+        display:none;
+    }
+    .selectedNav a { 
+        background-color: #FF0000; 
+        box-shadow:none;
+    }
+    .container{
+        flex-direction:column;
+    }
+    .dietButton{
+        font-size:12pt;
+        border-radius:50%;
+    }
+    .dietButton:hover{
+    text-shadow:0 0 10px blue;
+    font-size:18pt;
+    border-radius:50%;
+}
+    
+}
